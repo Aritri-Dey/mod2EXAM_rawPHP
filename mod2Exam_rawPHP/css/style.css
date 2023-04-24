@@ -1,0 +1,63 @@
+body,html,* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(150, 144, 186);
+  font-size: 18px;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+}
+#err {
+  color: red;
+}
+.buttons {
+  padding: 20px;
+  text-decoration: none;
+  background-color: rgb(40, 41, 41);
+  color: white;
+}
+.buttons:hover {
+  background-color: rgb(24, 24, 24);
+}
+tbody {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 50px;
+}
+ tbody tr {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ table, th, td {
+  border: 1px solid;
+}
+ form {
+  margin: 20px;
+  padding: 20px;
+  background: skyblue;
+ }
+.eachItem {
+  padding: 15px;
+  margin: 20px;
+}
+.player-div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 15px;
+}
+#response {
+  margin: 10px;
+  padding: auto;
+  display: block;
+}

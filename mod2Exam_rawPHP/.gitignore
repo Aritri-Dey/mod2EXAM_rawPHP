@@ -1,0 +1,3 @@
+# Ignoring env file whcih conatins senstitive database information.
+*.env
+
